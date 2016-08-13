@@ -5,5 +5,6 @@
 $(document).ready(function(){
     $('.parallax-window').parallax({
         //positionY: "-440px"
+        bleed: 3
     });
 });

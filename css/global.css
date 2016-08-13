@@ -14,6 +14,27 @@ body
     font-family: "Montserrat", Arial, Sans-serif;
 }
 
+.nav-item{
+    cursor: pointer;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    text-decoration: none;
+    box-shadow: 3px 3px 5px #505050;
+}
+
+.nav-item:hover .dropdown{
+    display:block;
+}
+
+.dropdown-item a {
+    text-decoration: none;
+    color:black;
+
+}
+
 .parallax-window {
     min-height: 400px;
     background: transparent;
