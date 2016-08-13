@@ -14,6 +14,11 @@ body
     font-family: "Montserrat", Arial, Sans-serif;
 }
 
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
 .content{
  padding: 40px 0 40px 0;
 }
@@ -27,6 +32,10 @@ footer{
 
 nav.navbar{
     border-radius: 0;
+}
+
+.nav-container{
+    box-shadow: 0 4px 10px 0 rgba(20, 20, 20, 0.2);
 }
 
 
@@ -51,6 +60,7 @@ nav .logo{
     background-size: cover;
     background-position: center 50%;
     background-attachment: fixed;
+    /*box-shadow: 0 -4px 10px 0 rgba(20, 20, 20, 0.2);*/
     text-shadow: 0px 1px 2px rgba(20, 20, 20, .5);
     padding: 10px;
 }
